@@ -39,9 +39,8 @@ render(){
     return <div>Loading...</div>;
   } else {
     return (
-    <Container>
+    <Container >
     <Row>
-      <img src="somebackground.jpg" style={{height:'200px', width:'100%'}}/>
     </Row>
     <Row>
       <Tab.Container defaultActiveKey="#https://www.anapioficeandfire.com/api/houses/1">
